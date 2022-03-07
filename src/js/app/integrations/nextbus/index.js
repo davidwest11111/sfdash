@@ -5,7 +5,7 @@ import qs from 'qs';
 
 export const URL = (
   process.env.NEXTBUS_XML_FEED_OVERRIDE_URL ||
-  'http://webservices.nextbus.com/service/publicXMLFeed'
+  'http://retro.umoiq.com/service/publicXMLFeed'
 );
 
 export const getUserPosition = options => (
